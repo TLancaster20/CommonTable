@@ -3,6 +3,10 @@
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+
+  margin-top: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 /* Style the header links */
@@ -15,6 +19,9 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+
+  margin-top: 5px;
+
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -130,4 +137,9 @@
   color: #FFFFFF;
   position:relative;
   top: 100px;
+}
+
+.links{
+  text-align:  center;
+  font-family: Arial;
 }

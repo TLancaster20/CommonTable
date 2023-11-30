@@ -1,0 +1,133 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+/*https://www.w3schools.com/howto/howto_css_responsive_header.asp*/
+
+.mainone {
+  background-image: url('./Images/mainpage.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  height:1000px;
+  margin-top: -30px;
+  margin-bottom: -40px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/*https://www.w3schools.com/html/html_images_background.asp*/
+
+.mainone p{
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  color: #FFFFFF;
+  position:relative;
+  top: 925px;
+}
+
+.maintwo{
+  background-image: url('./Images/mainone.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: -30px;
+  margin-bottom: -50px;
+  margin-left: -15px;
+  margin-right:-15px;
+  height:400px;
+}
+
+.maintwo h1{
+  text-align: center;
+  font-family: Arial;
+  font-size: 48px;
+  color: #FFFFFF;
+  position:relative;
+  top: 50px;
+}
+
+.maintwo p{
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  color: #FFFFFF;
+  position:relative;
+  margin-left: 100px;
+  margin-right:100px;
+  top: 100px;
+}
+/* https://www.w3schools.com/css/css_font.asp FONT TYPES*/
+
+.mainthree{
+  /*background-image: url('./Images/mainone.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;*/
+  margin-top: -30px;
+  margin-bottom: -50px;
+  margin-left: -15px;
+  margin-right:-15px;
+  height:400px;
+}
+
+.mainthree p{
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  color: #FFFFFF;
+  position:relative;
+  top: 100px;
+}
